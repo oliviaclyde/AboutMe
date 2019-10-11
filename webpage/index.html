@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Meet Olivia Clyde</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+
+<body>
+  <nav>
+    <h1 id="Home"><strong>Olivia Clyde</strong></h1>
+      <ul class="main-nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Professional Summary">Professional Summary</a></li>
+        <li><a href="#Personal Interests">Personal Interests</a></li>
+        <li><a href="#Let's Connect">Let's Connect</a></li>
+      </ul>
+  </nav>
+  <div class="landing">
+  <!--Idea: Have a quote move across the page from right to left  -->
+    <p>Success is not final; failure is not fatal: it is the courage to continue that counts. -Winston Churchill</p>
+  </div>
+
+  <div class="topics" id="Professional Summary">
+    <h2>Professional Summary</h2>
+    <img src="imflash1.jpeg" id="imflashimg" alt="Large picture of person inside semiconductor cleanroom">
+    <h3 id="highlight" onmouseover="onMouseOver()" onmouseout ="onMouseOut()">Sr. Treasury & Financial Analyst</h3>
+    <p>I have been working in the finance sector for over 10 years. Recently I spent the last 8 years working
+      as the Senior Treasury and Financial Analyst for IM Flash Technologies, a multi-billion dollar semiconductor manufacturing
+      joint-venture between Micron and Intel. I was soley responsible for forecasting and managing all cash in the business.
+      I peformed excellent under pressure in closely managing timing of massive capital equipment cash flows while accounting for regular operating cash flows.
+      Additionally, I helped migrate our systems to a new banking partner while remaining compliant with internal banking policies and corporate banking resolutions.
+      <br><br>My Three Top Achievements:</p>
+        <ul>
+          <li>Successfully managed over $1B in cash in a 12 month period to fund captial equipment purchases</li>
+          <li>Partnered closely with CFO to forecast upcoming cash need</li>
+          <li>Ensured successful and smooth transition to new banking partner</li>
+        </ul>
+  </div>
+  <div class="topics" id="Personal Interests">
+     <h2>Personal Interests</h2>
+     <img src="grandcanyon.jpg" id="grandimg" alt="Large picture of South Kaibab Trail at the Grand Canyon">
+       <h3 id="highlight1" onmouseover="onMouseOver1()" onmouseout ="onMouseOut1()">Rim2Rim</h3>
+         <p>In May 2017 I hiked Rim2Rim. This is a grueling, 23.9 mile trek...and we did it in one day. Starting point was the North Rim on the North Kaibab Trail, 5 a.m. We hiked
+       down 14.3 miles and 6,000 feet to Phathom Ranch for lunch. If you are lucky enough to be draw in the lottery they run every year, you could have a chance to stay overnight
+       there. After lunch we crossed the Colorado River. Wow! It was incredible. Then the real work started. Taking Bright Angel Trail we climbed 4,500 feet over 9.6 miles
+       to get back out, arriving at the South Rim at 5 p.m. <br><br>Three Things I Learned:</p>
+<!-- Ideas: add a section where pictures of myself on the trip could horizontal scroll through -->
+        <ul>
+          <li>Embrace the hard</li>
+          <li>Carry salt tablets</li>
+          <li>Down is optional, Up is required</li>
+        </ul>
+  </div>
+<!--Ideas: add a "Learn More" section that connects you with information about the hike
+If you pulled some data and stored it in an database (AWS, for instance) you could have a
+feature where you could check the temperature of the trail by month" -->
+  <div>
+       <img src="halfmarathon.jpg" id="halfimg" alt="Large picture of racers running down canyon in a half marathon">
+       <h3 id="highlight2" onmouseover="onMouseOver2()" onmouseout ="onMouseOut2()">13.1</h3>
+         <p>I have trained for and completed two half marathons (2014 and 2017). Both these halfs were in June,
+           which meant I started training in January. This meant three-mile runs, three-times a week before work in the dark in freezing temperatures.
+           I'm not afraid of hard things. Just before my long training run for the first half, I suffered an IT band injury. I was able to still race
+           but spent the next year barely able to run a half mile while fighting the flare-up. I learned how to be smart and avoid injury during the training for my second
+           half. <br><br>Key Takeaways: </p>
+        <ul>
+          <li>Layers are key</li>
+          <li>Do the long run</li>
+          <li>Be cognizant of injury potential</li>
+        </ul>
+  </div>
+
+  <div class="connect" id="Let's Connect">
+    <h2>Let's Connect</h2>
+
+  </div>
+  <div class="contact">
+    <img class="me" src="me.jpeg">
+    <ul>
+      <li>phone: 801-592-7625<li>
+<!-- Make this active links to email compose a message-->
+      <li>email: olivialclyde@gmail.com</li>
+      <li><a href="https://www.github.com/oliviaclyde">projects: Github/oliviaclyde</a></li>
+      <li><a href="https://twitter.com/olivialclyde">twitter: @olivialclyde</a><li>
+      <li><a href="https://linkedin.com/in/olivialclyde">linkedIn: olivialclyde</a><li>
+    </ul>
+  </div>
+<!-- Ideas: Put LinkedIn and Twitter icons and link to my profiles -->
+  <div class="questions">
+    <h5>Questions?
+    <input type="input" placeholder="Type your questions here">
+    <button onclick="showAlert()">Submit</button></h5>
+
+</body>
+
+<footer>©2019 All Rights Reserved</footer>
+
+</html>

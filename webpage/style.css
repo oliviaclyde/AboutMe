@@ -1,0 +1,176 @@
+/* Border-box includes any margins and paddings when calculating total space */
+* {
+  box-sizing: border-box;
+
+
+}
+
+head {
+  background-color: #FFF;
+}
+
+body {
+  /*I wanted a clean-looking, modern font so I used Google fonts.*/
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFF;
+  margin: 5px;
+  padding: 10px;
+}
+#Home {
+  font-size: 50px;
+  padding: 30px 0 0 0;
+
+}
+.main-nav {
+  background-color: rgba(211, 211, 211, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  list-style: none;
+  padding: none;
+  margin: 0;
+  height: 150px;
+}
+.main-nav a {
+  float: right;
+  display: inline;
+  color: black;
+  font-size: 15px;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+}
+.main-nav a:hover {
+  color: blue;
+}
+
+.landing {
+  text-align: right;
+  background-image: url("neutralbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+
+}
+
+.topics {
+  margin-top: 50px;
+
+}
+#imflashimg {
+  margin: 0 20px 0 20px 0;
+  width: 100%;
+}
+
+#grandimg {
+  margin: 0 20px 0 20px 0;
+  width: 100%;
+
+}
+
+#halfimg {
+  margin: 0 20px 0 20px 0;
+  width: 100%;
+}
+
+.me {
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 80px;
+}
+
+h3 {
+  padding: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+ul {
+  padding: 10px;
+  font-size: 20px;
+  margin: 15px 60px 15px 60px;
+}
+
+.connect {
+  height: 160px;
+  margin-bottom: 70px;
+}
+
+.contact {
+  text-align: center;
+  color: black;
+}
+
+.contact ul {
+  text-align: center;
+  list-style: none;
+  color: black;
+
+}
+
+.contact li {
+  margin: 10px 0;
+  font: black;
+}
+
+.contact a:hover {
+    color: blue;
+}
+
+.questions {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+input {
+  border: 5px;
+  padding: none;
+  margin: 2px;
+  font-size: 15px;
+}
+
+button {
+  background: gray;
+  color: white;
+}
+
+button:hover {
+  background-color: cyan;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+
+/* This is to make it compatible with smaller devices. Must go at the end. */
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
